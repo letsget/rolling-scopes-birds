@@ -3,7 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Git Instruction
 
 1. git add -A .
-2. git push origin master
+2. git commit -m "message"
+3. git push origin master
 
 ## Available Scripts
 
