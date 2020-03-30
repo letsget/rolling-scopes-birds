@@ -5,10 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const AudioPlayer = () => {
 
     return (
-        <div style={{ width: '68%' }} className="player">
+        <div className="player">
             <ul className="list-group list-group-flush">
                 <li className="list-group-item">
-                    <h3>********</h3>
+                    <h3 style={{ 'textAlign': 'left' }}>********</h3>
                 </li>
                 <li className="list-group-item">
                     <div className="audio-player">
@@ -35,7 +35,7 @@ const AudioPlayer = () => {
                     </div>
                 </li>
             </ul>
-        </div>
+        </div >
     )
 }
 
